@@ -73,8 +73,8 @@ function turnRight(rover){
 
   function moveForward() {
     console.log('moveForward was called');
-  if (canMove(facing.currentPosicion[0], facing.currentPosicion[1], facing.currentDirection, "forward") &&
-   !nextPositionIsObstacle(facing.currentPosicion[0], facing.currentPosicion[1], facing.currentDirection, "forward")) {
+  if (nextMoveInInsideGrid(facing.currentPosicion[0], facing.currentPosicion[1], facing.currentDirection, "forward") &&
+   !nextMoveIsNotObstacle(facing.currentPosicion[0], facing.currentPosicion[1], facing.currentDirection, "forward")) {
       switch (facing.currentDirection) {
         case 'N':
           facing.currentPosicion[0] = facing.currentPosicion[0] - 1;
@@ -99,8 +99,8 @@ function turnRight(rover){
 
 function moveBackwards() {
 	console.log('moveBackwards was called');
-  if (canMove(facing.currentPosicion[0], facing.currentPosicion[1], facing.currentDirection, "backward") 
-  && !nextPositionIsObstacle(facing.currentPosicion[0], facing.currentPosicion[1], facing.currentDirection, "backward")) {
+  if (nextMoveInInsideGrid(facing.currentPosicion[0], facing.currentPosicion[1], facing.currentDirection, "backward") 
+  && !nextMoveIsNotObstacle(facing.currentPosicion[0], facing.currentPosicion[1], facing.currentDirection, "backward")) {
     switch (facing.currentDirection) {
         case 'N':
           facing.currentPosicion[0] = facing.currentPosicion[0] + 1;
@@ -123,7 +123,7 @@ function moveBackwards() {
   }
 }
 
-function canMove(x, y, direction, move) {
+function nextMoveInInsideGrid (x, y, direction, move) {
   switch (direction) {
 		case 'N':
 			if (move === "forward" && x===0) {
@@ -169,7 +169,7 @@ function canMove(x, y, direction, move) {
 }
 
 
-function nextPositionIsObstacle(x, y, direction, move) {
+function nextMoveIsNotObstacle(x, y, direction, move) {
   switch (direction) {
 		case 'N':
 			if (move === "forward" && matrix[x-1][y]==="o") {
