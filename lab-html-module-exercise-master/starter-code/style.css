@@ -1,23 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-*{
-  margin:0;
-  padding:0;
-}
-
-body{
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 48px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 24px;
-  margin: 20px 0 10px 0;
-  padding: 107em 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -52,6 +41,7 @@ h1 {
   color: rgba(255,255,255,0.8);
   font-size: 0.9em;
 }
+
 .clearfix {
   clear: both;
 }
@@ -59,7 +49,7 @@ h1 {
 .headerNpm {
   color: white;
   background-color: #1D4E69;
-  background-image: url(images/city-scape.svg);
+  background-image: url(city-scape.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -100,10 +90,6 @@ h1 {
   float:left; 
 }
 
-.btn-search img {
-  width: 16px; 
-}
-
 .ulHeaderBar {
   float:left;
   margin:0 auto;
@@ -118,7 +104,14 @@ h1 {
   display: inline;
 }
 
-.ulHeaderBar a, span {
+.ulHeaderBar li a {
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-size: 1em;
+}
+
+.ulHeaderBar a span {
   letter-spacing: 0.5px;
   text-decoration: none;
   color: rgba(255,255,255,0.8);
@@ -132,27 +125,23 @@ h1 {
   width: 3%;
 }
 
-.npmLogo {
-  height: 49px;
-}
-
-.headerSign {
+.build {
   text-align: left;
   margin: 40px 150px;
 }
 
-.divHeaderSign {
+.divBuild {
   width: 550px;
 }
 
-.divHeaderSign p {
+.divBuild p {
   font-size: 18px;
   font-weight: 400;
   padding: 20px 0;
   margin: 10px 0;
 }
 
-.divHeaderSign a{
+.divBuild a {
   background-color: rgb(240, 146, 51);
   text-decoration: none;
   font-weight: 400;
@@ -162,7 +151,7 @@ h1 {
   color: white;
 }
 
-.btnHeader {
+.btnBuild {
   background-color: rgb(240, 146, 51);
   text-decoration: none;
   color: white;
@@ -175,17 +164,17 @@ h1 {
   text-align: left;
 }
 
-.container {
-  width:1160px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .sectionSignUp {
   background-color:#273547;
   font:white;
   padding: 120px 10px;
   color:white;
+}
+
+.container {
+  width:1160px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .imgSignUp {
@@ -205,11 +194,6 @@ h1 {
   text-align: right;
 }
 
-.forkliftImg {
-  height: 333px;
-  text-align: left; 
-} 
-
 .textSignUp {
   width: 40%;
   margin-left: 4%;
@@ -220,7 +204,7 @@ h1 {
   padding-right: 10px;
   display: block;
 }
- 
+
 .textSignUp h1 {
   font-weight: 300;
   padding: .107em 0;
@@ -263,7 +247,7 @@ h1 {
 
 .sectionInstall {
   background-color: #206F9C;
-  background-image: url(forklift.svg);
+  background-image: url(images/forklift.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -272,7 +256,7 @@ h1 {
   padding: 60px 6%;
 }
 
-.divInstal l{
+.divInstal li{
   text-align: left;
   margin: 60px 0 20px 5%;
   width: 345px;
@@ -302,6 +286,11 @@ h1 {
   border: 1px;
   color: white;
 }
+
+.forkliftImg {
+  height: 333px;
+  text-align: left; 
+} 
 
 .sectionOptions {
   height: 510px;
@@ -343,7 +332,7 @@ h1 {
   float: left;
 }
 
-.blocks {
+.block1 {
   width: 30%;
 }
 
@@ -352,6 +341,6 @@ h1 {
 }
 
 
-a {
+.block p a {
   color: red;
 }
