@@ -316,8 +316,8 @@ ulHeaderBar {
 
 .block {
   width: 33.3333333%;
-  margin-bottom: 2px;
-  padding: 0;
+  margin-top: 2%;
+  margin-bottom: 4%;
   text-align:center;
   display: inline;
   float: left;
@@ -335,18 +335,6 @@ ulHeaderBar {
   color: #cb3837;
 }
 
-
-.mountain {
-  margin: 0 8%;
-}
-
-
-.block p a {
-  color: red;
-}
-.block1 {
-  width: 30%;
-}
 
 .mountain {
   margin: 0 8%;
