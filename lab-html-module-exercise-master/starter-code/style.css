@@ -49,7 +49,7 @@ body {
 .headerNpm {
   color: white;
   background-color: #1D4E69;
-  background-image: url(city-scape.svg);
+  background-image: url(images/city-scape.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -63,6 +63,10 @@ body {
 .headerBarOne {
   float: left;
   width:10%;
+}
+
+.npmLogo {
+  width: 100%;
 }
 
 .headerBarTwo {
@@ -90,7 +94,7 @@ body {
   float:left; 
 }
 
-.ulHeaderBar {
+ulHeaderBar {
   float:left;
   margin:0 auto;
   width:13%;
@@ -118,11 +122,12 @@ body {
   font-size: 1em;
 }
 
+
 .bearImg {
-  float: left;
+  float: right;
   height: 40px;
   padding: 2px 0;
-  width: 3%;
+  width: 40px;
 }
 
 .build {
@@ -287,33 +292,35 @@ body {
   color: white;
 }
 
-.forkliftImg {
-  height: 333px;
-  text-align: left; 
-} 
 
 .sectionOptions {
-  height: 510px;
   color:#6d7986;
   text-align: center;
 }
 
-.divOptions {
-  padding: 40px 10px;
-  margin:0 5%;
-}
+
 
 .divOptions h2 {
   color: #373d48;
-  margin: 20px 0;
-  padding: 3px 0;
+  margin: 5px 0;
+  padding: 15px 0;
   font-weight: 300;
   font-size: 36px;
 }
 
-.opBlocks div {
-  width: 250px;
-  padding: 20px;
+.pOptions {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+
+.block {
+  width: 33.3333333%;
+  margin-bottom: 2px;
+  padding: 0;
+  text-align:center;
+  display: inline;
+  float: left;
 }
 
 .opBlocks h3 {
@@ -328,10 +335,15 @@ body {
   color: #cb3837;
 }
 
-.block {
-  float: left;
+
+.mountain {
+  margin: 0 8%;
 }
 
+
+.block p a {
+  color: red;
+}
 .block1 {
   width: 30%;
 }
