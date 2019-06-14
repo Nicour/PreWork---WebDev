@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 
-.navbar {
+.nav-bar {
   color:rgba(255,255,255,0.8);
   background-color:#C12127;
   padding:11px 20px;
@@ -35,7 +35,7 @@ body {
   padding-left: 15px;
 }
 
-.navbar a {
+.nav-bar a {
   letter-spacing: 0.5px;
   text-decoration: none;
   color: rgba(255,255,255,0.8);
@@ -46,7 +46,7 @@ body {
   clear: both;
 }
 
-.headerNpm {
+.header-npm {
   color: white;
   background-color: #1D4E69;
   background-image: url(images/city-scape.svg);
@@ -56,20 +56,20 @@ body {
   height: 445px;
 }
 
-.headerBar {
+.header-bar {
   padding: 20px;
 }
 
-.headerBarOne {
+.header-bar-one {
   float: left;
   width:10%;
 }
 
-.npmLogo {
+.npm-logo {
   width: 100%;
 }
 
-.headerBarTwo {
+.header-bar-two {
   float: left;
   width: 70%;
   margin:0 1% 0 1%;
@@ -94,28 +94,27 @@ body {
   float:left; 
 }
 
-ulHeaderBar {
+.ul-header-bar {
   float:left;
   margin:0 auto;
   width:13%;
-  padding: 2% 0;
-  text-align: right;
+  text-align: left;
 }
 
-.ulHeaderBar li {
+.ul-header-bar li {
   list-style-type:none;
   text-align:center;
   display: inline;
 }
 
-.ulHeaderBar li a {
+.ul-header-bar li a {
   letter-spacing: 0.5px;
   text-decoration: none;
   color: rgba(255,255,255,0.8);
   font-size: 1em;
 }
 
-.ulHeaderBar a span {
+.ul-header-bar a span {
   letter-spacing: 0.5px;
   text-decoration: none;
   color: rgba(255,255,255,0.8);
@@ -123,7 +122,7 @@ ulHeaderBar {
 }
 
 
-.bearImg {
+.bear-img {
   float: right;
   height: 40px;
   padding: 2px 0;
@@ -135,18 +134,18 @@ ulHeaderBar {
   margin: 40px 150px;
 }
 
-.divBuild {
+.div-build {
   width: 550px;
 }
 
-.divBuild p {
+.div-build  p {
   font-size: 18px;
   font-weight: 400;
   padding: 20px 0;
   margin: 10px 0;
 }
 
-.divBuild a {
+.div-build a {
   background-color: rgb(240, 146, 51);
   text-decoration: none;
   font-weight: 400;
@@ -156,7 +155,7 @@ ulHeaderBar {
   color: white;
 }
 
-.btnBuild {
+.btn-build {
   background-color: rgb(240, 146, 51);
   text-decoration: none;
   color: white;
@@ -169,7 +168,7 @@ ulHeaderBar {
   text-align: left;
 }
 
-.sectionSignUp {
+.section-sign-up {
   background-color:#273547;
   font:white;
   padding: 120px 10px;
@@ -182,7 +181,7 @@ ulHeaderBar {
   text-align: center;
 }
 
-.imgSignUp {
+.img-sign-up {
   width: 50%;
   margin-left: 4%;
   float: left;
@@ -194,12 +193,12 @@ ulHeaderBar {
   box-sizing: border-box;
 }
 
-.collaborationImg {
+.collaboration-img {
   height: 333px;
   text-align: right;
 }
 
-.textSignUp {
+.text-sign-up {
   width: 40%;
   margin-left: 4%;
   float: left;
@@ -210,7 +209,7 @@ ulHeaderBar {
   display: block;
 }
 
-.textSignUp h1 {
+.text-sign-up h1 {
   font-weight: 300;
   padding: .107em 0;
   margin-bottom: 10px;
@@ -219,14 +218,14 @@ ulHeaderBar {
   line-height: normal;
 }
 
-.textSignUp ul {
+.text-sign-up ul {
   padding-left: 23px;
   padding-bottom: 20px;
   text-align: left;
   line-height: 40px;
 }
 
-.buttonSign {
+.button-sign {
   background-color: rgb(203, 56, 55);
   text-decoration: none;
   color: white;
@@ -250,7 +249,7 @@ ulHeaderBar {
   color: white;
 }
 
-.sectionInstall {
+.section-install {
   background-color: #206F9C;
   background-image: url(images/forklift.svg);
   background-position: 0 0;
@@ -261,13 +260,13 @@ ulHeaderBar {
   padding: 60px 6%;
 }
 
-.divInstal li{
+.div-install li{
   text-align: left;
   margin: 60px 0 20px 5%;
   width: 345px;
 }
 
-.divInstall h1 {
+.div-install h1 {
   font-size: 36px;
   font-weight: 400;
   line-height: 24px;
@@ -275,13 +274,13 @@ ulHeaderBar {
   padding: 5px 0;
 }
 
-.divInstall p {
+.div-install p {
   margin-bottom: 10px;
   padding: 10px 0;
 
 }
 
-.divInstall a {
+.div-install a {
   text-decoration: none;
   background-color: #34495e;
   border-radius: 20px;
@@ -293,14 +292,14 @@ ulHeaderBar {
 }
 
 
-.sectionOptions {
+.section-options {
   color:#6d7986;
   text-align: center;
 }
 
 
 
-.divOptions h2 {
+.div-options h2 {
   color: #373d48;
   margin: 5px 0;
   padding: 15px 0;
@@ -308,7 +307,7 @@ ulHeaderBar {
   font-size: 36px;
 }
 
-.pOptions {
+.p-options {
   padding: 5px;
   margin-bottom: 15px;
 }
@@ -323,14 +322,14 @@ ulHeaderBar {
   float: left;
 }
 
-.opBlocks h3 {
+.op-blocks h3 {
   color:#373d48;
   margin: 10px 0;
   font-size: 20px;
   font-weight: 600;
 }
 
-.optionsBlocks a {
+.options-nlocks a {
   text-decoration: none;
   color: #cb3837;
 }
