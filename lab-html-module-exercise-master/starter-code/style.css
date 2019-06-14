@@ -125,7 +125,7 @@ body {
 .bear-img {
   float: right;
   height: 40px;
-  padding: 2px 0;
+  padding: 2px;
   width: 40px;
 }
 
@@ -317,7 +317,7 @@ body {
   width: 33.3333333%;
   margin-top: 2%;
   margin-bottom: 4%;
-  text-align:center;
+  text-align: center;
   display: inline;
   float: left;
 }
@@ -332,11 +332,6 @@ body {
 .options-nlocks a {
   text-decoration: none;
   color: #cb3837;
-}
-
-
-.mountain {
-  margin: 0 8%;
 }
 
 
